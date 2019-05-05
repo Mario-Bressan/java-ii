@@ -1,4 +1,4 @@
-package com.bressan.ocp.lamda.functional.interfaces.consumers;
+package com.bressan.ocp.lamda.functional.interfaces.consumer;
 
 import java.util.function.BiConsumer;
 

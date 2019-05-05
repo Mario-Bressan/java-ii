@@ -1,4 +1,4 @@
-package com.bressan.ocp.lamda.p1;
+package com.bressan.ocp.lamda.functional.interfaces.consumer;
 
 import java.util.function.Consumer;
 import java.util.stream.Stream;

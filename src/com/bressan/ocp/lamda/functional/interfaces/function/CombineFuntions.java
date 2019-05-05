@@ -1,4 +1,4 @@
-package com.bressan.ocp.lamda.p1;
+package com.bressan.ocp.lamda.functional.interfaces.function;
 
 import java.util.Arrays;
 import java.util.function.Function;

@@ -1,4 +1,4 @@
-package com.bressan.ocp.lamda.functional.interfaces.suppliers;
+package com.bressan.ocp.lamda.functional.interfaces.supplier;
 
 import java.util.Map;
 import java.util.function.Supplier;

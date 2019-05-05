@@ -1,7 +1,8 @@
-package com.bressan.ocp.lamda.functional.interfaces.consumers;
+package com.bressan.ocp.lamda.functional.interfaces.consumer;
 
 import java.util.function.Consumer;
 
+//A Consumer<T> “consumes” something: it takes an argument (of generic type T) and returns nothing
 public class TestConsumer {
     public static void main(String[] args) {
 
