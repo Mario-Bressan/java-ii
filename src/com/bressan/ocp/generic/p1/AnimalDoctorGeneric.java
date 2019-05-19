@@ -1,5 +1,10 @@
 package com.bressan.ocp.generic.p1;
 
+import com.bressan.ocp.generic.model.Animal;
+import com.bressan.ocp.generic.model.Bird;
+import com.bressan.ocp.generic.model.Cat;
+import com.bressan.ocp.generic.model.Dog;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,27 +19,3 @@ public class AnimalDoctorGeneric {
     }
 }
 
-abstract class Animal {
-    public abstract void checkup();
-}
-
-class Dog extends Animal {
-    @Override
-    public void checkup() {
-        System.out.println("Dog checkup");
-    }
-}
-
-class Cat extends Animal {
-    @Override
-    public void checkup() {
-        System.out.println("Cat checkup");
-    }
-}
-
-class Bird extends Animal {
-    @Override
-    public void checkup() {
-        System.out.println("Bird checkup");
-    }
-}
