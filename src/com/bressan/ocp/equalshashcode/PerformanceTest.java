@@ -20,12 +20,12 @@ public class PerformanceTest {
         long i = 999999;
         Person person1 = new Person(i, "name"+i);
         System.out.println("find in set:");
-        Date inicioSet = new Date();
+        Date startSet = new Date();
         if (personSet.contains(person1))
-            System.out.println("objeto localizado em " + (new Date().getTime() - inicioSet.getTime()) + " milisegundos");
+            System.out.println("object located in " + (new Date().getTime() - startSet.getTime()) + " milliseconds");
 
-        Date inicioList = new Date();
+        Date startList = new Date();
         if (personList.contains(person1))
-            System.out.println("objeto localizado em " + (new Date().getTime() - inicioList.getTime()) + " milisegundos");
+            System.out.println("object located in " + (new Date().getTime() - startList.getTime()) + " milliseconds");
     }
 }

@@ -1,7 +1,5 @@
 package com.bressan.ocp.equalshashcode;
 
-import java.util.Objects;
-
 public class Person {
 
     private Long id;
@@ -39,6 +37,6 @@ public class Person {
 
     @Override
     public int hashCode() {
-        return (int) (id + 7 * name.length());
+        return HashUtil.generateHash(name + id);
     }
 }
