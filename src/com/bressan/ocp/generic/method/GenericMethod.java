@@ -20,6 +20,7 @@ public class GenericMethod {
         List<T> list = new ArrayList<>();
         list.add(t);
         return list;
+
     }
 
     // é possível colocar um limite no tipo da variável

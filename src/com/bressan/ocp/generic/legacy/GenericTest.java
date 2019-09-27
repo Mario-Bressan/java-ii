@@ -1,4 +1,4 @@
-package com.bressan.ocp.generic.lagacy;
+package com.bressan.ocp.generic.legacy;
 
 import java.util.ArrayList;
 import java.util.Iterator;
