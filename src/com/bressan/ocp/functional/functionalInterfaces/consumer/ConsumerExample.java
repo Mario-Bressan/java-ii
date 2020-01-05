@@ -1,4 +1,4 @@
-package com.bressan.ocp.functional.consumer;
+package com.bressan.ocp.functional.functionalInterfaces.consumer;
 
 import java.util.function.Consumer;
 

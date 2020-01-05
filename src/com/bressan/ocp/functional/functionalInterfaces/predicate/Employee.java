@@ -1,4 +1,4 @@
-package com.bressan.ocp.functional.predicate;
+package com.bressan.ocp.functional.functionalInterfaces.predicate;
 
 public class Employee {
 

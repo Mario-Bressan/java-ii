@@ -1,9 +1,9 @@
-package com.bressan.ocp.functional.predicate;
+package com.bressan.ocp.functional.functionalInterfaces.predicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import static com.bressan.ocp.functional.predicate.EmployeePredicates.*;
+import static com.bressan.ocp.functional.functionalInterfaces.predicate.EmployeePredicates.*;
 
 public class TestEmployeePredicates {
 

@@ -1,4 +1,4 @@
-package com.bressan.ocp.functional.supplier;
+package com.bressan.ocp.functional.functionalInterfaces.supplier;
 
 import java.time.LocalDateTime;
 import java.util.function.Supplier;

@@ -1,4 +1,4 @@
-package com.bressan.ocp.functional.function;
+package com.bressan.ocp.functional.functionalInterfaces.function;
 
 import java.util.function.Function;
 
